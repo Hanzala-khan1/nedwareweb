@@ -1,0 +1,151 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box ;
+}
+
+/* /////////////////////////  Nabar css //////////////////// */
+.res {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+/*  media query start here */
+
+@media (max-width:786px) {
+
+  .res {
+      width: 100%;
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      background-color: rgb(12, 12, 65);
+      top: 6rem;
+      left: 0%;
+      align-items: center;
+      text-align: center;
+z-index: 999999;
+
+  }
+ .res.active {
+      display: flex;
+
+  }
+
+  
+
+}
+/* //////////////////// service section /////////////////// */
+
+.services{
+  height: 100%;
+  background: url(./components/images/pic4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 30px;
+}
+.con{
+  width: 80%;
+  margin: auto;
+}
+.servicesh{
+  font-size: 4rem;
+  padding-top: 30px;
+
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 5px 5px 10px rgb(20, 160, 195);
+ 
+
+}
+.newcard{
+  border: 5px solid rgb(23, 147, 181);
+  border-radius: 13px 50px 50px 13px;
+  margin-top: 20px !important;
+  cursor: pointer;
+
+}
+.nameS{
+  font-size: 2.4rem;
+  color: white !important;
+}
+.bb{
+  background: none !important;
+
+}
+.newcard:hover{
+background-color:  rgb(23, 147, 181) !important;
+transition: all ease-in 0.5 !important;
+
+}
+/* responsive */
+
+@media (max-width:770px) {
+  .con{
+    width: 100%;
+  }
+  .servicesh{
+    font-size: 4rem;
+    }
+
+  .nameS{
+    font-size: 2rem;
+    color: white !important;
+  }
+
+}
+@media (max-width:1050px) {
+  .con{
+    width: 100%;
+  }
+}
+/* /////////////////////end//////////////////// */
+.footer{
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.foothead{
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+}
+
+@media (max-width:770px) {
+
+  .foothead{
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+  }
+  
+}
+@media (max-width:430px) {
+  .footer{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .foothead{
+    font-size: 0.7rem;
+    color: white;
+    text-align: center;
+  }
+}
+
+
+
+

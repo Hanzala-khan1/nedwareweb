@@ -1,0 +1,486 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contact{
+    height: 100vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    background: url(../images/pic1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.heading{
+    margin-top: 30px;
+    font-size: 4rem;
+    text-shadow: 5px 5px 10px rgb(20, 160, 195);
+    color: white;
+    text-decoration: underline;
+}
+.mainsec{
+    display: flex;
+    height: 100%;
+    width:95%;
+}
+.info{
+    width: 50%;
+    height: 100%;
+ 
+
+}
+.mainh{
+    font-size: 2rem;
+    color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.mainp{
+    font-size: 1rem;
+    color: white;
+    margin-top: 15px;
+    margin-left: 30px;
+   
+}
+.infomain{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 50px;
+    justify-content: center;
+   color: white;
+   margin-top: 50px;
+  
+
+}
+.form{
+    width: 50%;
+    height: 100%;
+    padding-bottom: 30px;
+  
+
+}
+.formhead{
+    font-size: 2.8rem;
+    align-items: left;
+    margin-left: 30px;
+    color: white;
+    margin-top: 20px;
+
+
+}
+.cform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.input2{
+    display: flex;
+}
+.input{
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: aqua;
+    padding: 10px 20px;
+
+}
+.textinput{
+    
+    width: 100%;
+    margin-top: 30px;
+}
+.text{
+    font-size: 1.5rem;
+    margin-top: 50px;
+   margin: auto;
+    background-color: aqua;
+    width: 100%;
+    height: 100px;
+    padding: 10px 20px;
+
+}
+.button{
+    background-color: aqua;
+    align-items: left;
+    padding: 10px 40px;
+    font-size: 1.7rem;
+    color: black;
+    margin-top: 20px;
+    border-radius: 50px 50px;
+    transition: all ease-in 0.5s;
+
+}
+.button:hover{
+    background-color: black;
+  
+    
+  
+    color: white;
+    margin-top: 20px;
+transition: all ease-in 0.5s;
+
+}
+/*  ////////////////////// Media Query start here //////////////////// */
+@media (max-width:1256px) {
+    .form{
+        width: 50%;
+        height: 100%;
+      }
+    .formhead{
+        font-size: 2.8rem;
+        align-items: left;
+        margin-left: 30px;
+        color: white;
+    
+    
+    }
+    .cform{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .input2{
+        display: flex;
+    }
+    .input{
+        font-size: 1.2rem;
+        margin-top: 20px;
+        margin-right: 10px;
+        background-color: aqua;
+    
+    }
+    .textinput{
+        
+        width: 90%;
+        margin-top: 30px;
+    }
+    .text{
+        font-size: 1.5rem;
+        margin-top: 50px;
+       margin: auto;
+        background-color: aqua;
+        width: 100%;
+        height: 100px;
+        padding: 10px 20px;
+    
+    }
+
+}
+@media (max-width:1020px) {
+
+    .contact{
+        height: 100%;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px auto;
+        background: url(../images/pic1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .heading{
+        margin-top: 20px;
+        font-size: 3.5rem;
+        text-shadow: 5px 5px 10px rgb(20, 160, 195);
+        color: white;
+        text-decoration: underline;
+    }
+    .mainsec{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width:100%;
+    }
+    .info{
+        width: 90%;
+        height: 100%;
+     
+    
+    }
+    .mainh{
+        font-size: 2rem;
+        color: white;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .mainp{
+        font-size: 1rem;
+        color: white;
+        margin-top: 15px;
+        margin-left: 30px;
+       
+    }
+    .infomain{
+       
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        margin-left: 20px;
+        justify-content: center;
+       color: white;
+       margin-top: 20px;
+      
+    
+    }
+    .form{
+        width: 90%;
+        height: 100%;
+      
+    
+    }
+    .formhead{
+        font-size: 2.8rem;
+        align-items: left;
+        margin-left: 30px;
+        color: white;
+    
+    
+    }
+    .cform{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .input2{
+        display: flex;
+        width: 100%;
+    }
+    .input{
+        width: 47%;
+        margin:10px auto ;
+        font-size: 1.5rem;
+        margin-top: 20px;
+        margin-right: 20px;
+        background-color: aqua;
+        padding: 10px 20px;
+    
+    }
+    .textinput{
+        
+        width: 100%;
+        margin-top: 30px;
+    }
+    .text{
+        font-size: 1.5rem;
+        margin-top: 50px;
+       margin: auto;
+        background-color: aqua;
+        width: 100%;
+        height: 100px;
+        padding: 10px 20px;
+    
+    }
+    .button{
+        background-color: aqua;
+        align-items: left;
+        padding: 10px 40px;
+        font-size: 1.7rem;
+        color: black;
+        margin-top: 20px;
+        border-radius: 50px 50px;
+    
+    }
+
+}
+@media (max-width:766px) {
+    .contact{
+        height: 100%;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px auto;
+        background: url(../images/pic1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .heading{
+        margin-top: 20px;
+        font-size: 3rem;
+        text-shadow: 5px 5px 10px rgb(20, 160, 195);
+        color: white;
+        text-decoration: underline;
+    }
+    .mainsec{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width:100%;
+    }
+    .info{
+        width: 100%;
+        height: 100%;
+     
+    
+    }
+    .mainh{
+        font-size: 2rem;
+        color: white;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    .mainp{
+        font-size: 1rem;
+        color: white;
+        margin-top: 15px;
+        margin-left: 40px;
+       
+    }
+    .infomain{
+       
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        margin-left: 40px;
+        justify-content: center;
+       color: white;
+       margin-top: 20px;
+       
+      
+    
+    }
+    .form{
+        width: 100%;
+        height: 100%;
+      
+    
+    }
+    .formhead{
+        font-size: 2.4rem;
+        align-items: left;
+        margin-left: 20px;
+        color: white;
+    
+    
+    }
+    .cform{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .input2{
+        display: flex;
+    }
+    .input{
+        font-size: 1.1rem;
+        margin-top: 20px;
+      
+        background-color: aqua;
+    
+    
+    }
+    .textinput{
+        
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .text{
+        font-size: 1.1rem;
+        margin-top: 30px;
+       margin: auto;
+        background-color: aqua;
+        width: 100%;
+        height: 100px;
+     
+    
+    }
+    .button{
+        background-color: aqua;
+        align-items: left;
+        padding: 10px 30px;
+        font-size: 1.4rem;
+        color: black;
+        margin-top: 20px;
+        border-radius: 50px 50px;
+    
+    }
+
+}
+@media (max-width:766px) {
+
+    .form{
+        width: 100%;
+        height: 100%;
+      
+    
+    }
+    .formhead{
+        font-size: 2.4rem;
+        align-items: left;
+        margin-left: 20px;
+        color: white;
+    
+    
+    }
+    .cform{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .input2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+    }
+    .input{
+        font-size: 1.1rem;
+        margin-top: 20px;
+        width: 80%;
+        margin: 10px auto;
+      
+        background-color: aqua;
+    
+    
+    }
+    .textinput{
+        
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .text{
+        font-size: 1.1rem;
+        margin-top: 30px;
+       margin: auto;
+        background-color: aqua;
+        width: 100%;
+        height: 100px;
+     
+    
+    }
+    .button{
+        background-color: aqua;
+        align-items: left;
+        padding: 10px 30px;
+        font-size: 1.4rem;
+        color: black;
+        margin-top: 20px;
+        border-radius: 50px 50px;
+    
+    }
+
+}

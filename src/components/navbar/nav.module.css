@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color:rgb(12, 12, 65);
+    color: white;
+
+}
+
+.menubar {
+
+    margin-right: 1.3px;
+
+}
+
+.res {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lin {
+    text-decoration: none;
+    color: white;
+    transition: all ease-in 0.5;
+
+}
+
+
+.menubar ul li {
+    list-style: none;
+
+    margin: 1rem 1.3rem;
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.lin:hover {
+    border-radius: 10px;
+    text-decoration: underline;
+    color: aqua;
+    transition: all ease-in 0.5;
+}
+
+.mainhl {
+    margin-left: 2rem;
+
+    color: white;
+    font-size: 2rem;
+    font-weight: 800;
+    font-style: italic;
+    text-align: center;
+}
+
+
+
+.ham {
+    align-items: center;
+
+    display: none;
+}
+
+.h {
+    height: 5px;
+    width: 25px;
+    display: block;
+    background-color: white;
+    margin: 4px;
+}
+.top{
+    width: 100%;
+    background-color: rgb(12, 12, 65);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.topright{
+    width: auto;
+    height: 30px;
+  
+
+}
+.topleft{
+    width: auto;
+    height: 30px;
+   
+}
+.hr{
+    border: 1px solid black;
+    margin: 0px !important;
+}
+.fb{
+ color: white;
+ font-size: 2rem;
+
+}
+.contact{
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* ///////////////////////// media query start here //////////////////// */
+
+@media (max-width:786px) {
+    .menubar {
+        width: 100%;
+    }
+    .lin {
+
+        color: white;
+
+    }
+
+    .navbar1 {
+        padding: 8px 0px;
+    }
+
+
+    .res {
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: rgb(12, 12, 65);
+        top: 4rem;
+        left: 0%;
+        align-items: center;
+        text-align: center;
+
+
+    }
+    .ham {
+        display: block;
+        z-index: 999;
+        cursor: pointer;
+        margin-right: 5px;
+    }
+
+    .res.active {
+        display: flex;
+
+    }
+
+    .lin.res.active {
+        color: white;
+    }
+
+}
+
+
+
+@media (max-width:450px) {
+    .contact{
+        color: white;
+        font-size: 0.7rem;
+        cursor: pointer;
+    }
+    
+
+ 
+}
